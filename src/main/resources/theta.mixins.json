@@ -4,8 +4,10 @@
   "package": "io.github.kerbaras.theta.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "rules.IgniteGateways",
     "rules.NetherAnywhere",
-    "rules.IgniteGateways"
+    "rules.chunkloader.BlockEventLoader",
+    "rules.chunkloader.DispenserLoader"
   ],
   "client": [
     "TitleScreenMixin"
